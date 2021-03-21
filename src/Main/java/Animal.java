@@ -54,7 +54,7 @@ public class Animal {
     //"Animal{name='Tom', weight=12.5, height=40.7, age=4}"
     //"Animal{name="+name+" , weight="+weight+", height="+height+", age="+age
      public String toString() {
-         this.result="Animal{name='Tom', weight=12.5, height=40.7, age=4}";
+         this.result="Animal{name='"+name+"', weight="+weight+", height="+height+", age="+age+"}";
          return result;
      }
 
